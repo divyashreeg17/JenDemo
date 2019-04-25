@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="sample.VerifyNavigationToPaymentPage"/>
+      <class name="sample.GetTitle"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
