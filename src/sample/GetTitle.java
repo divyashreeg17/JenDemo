@@ -11,7 +11,7 @@ public class GetTitle {
 	@Test
 	public void getTitle() {
 		//System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
-		/**System.setProperty("webdriver.gecko.driver", "./geckodriver.exe");
+		System.setProperty("webdriver.gecko.driver", "./geckodriver.exe");
 		WebDriver driver=new FirefoxDriver();
 		driver.get("https://www.seleniumhq.org/");
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -21,7 +21,7 @@ public class GetTitle {
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		System.out.println(driver.getTitle());
 		
-		driver.close();**/
+		driver.close();
 		System.out.println("Jenkin with Git");
 	}
 }
